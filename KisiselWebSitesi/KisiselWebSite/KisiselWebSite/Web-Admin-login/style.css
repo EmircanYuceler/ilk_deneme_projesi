@@ -1,0 +1,74 @@
+body{
+    background-image:linear-gradient(120deg,#3498db,#8e44ad);
+    min-height:85vh;
+}
+
+.container{
+    
+margin: auto;
+margin-top: 7%;
+margin-bottom: 10%;
+margin-left: auto;
+margin-right:auto ;
+width: 20%;
+padding: 10px;
+padding-bottom: 70px;
+border-radius:3%;
+background-color: white;
+    
+}
+
+img{
+    
+    height: 200px;
+    width: 200px;
+    margin-left:auto;
+    margin-right:auto ;
+    display: block;
+    
+}
+h2{
+        font-size: 30px;
+        padding-left: 30px;
+        font-family: sans-serif;
+       
+    
+}
+
+.container .txtb{
+    margin-left: 1px;
+    padding-top:30px;
+    padding: 10px;
+    border-bottom: 1px solid rgb(194, 190, 190);
+    position: relative;
+}
+
+.txtb input{
+     
+    border:none;
+    outline: none;
+    height: 15px;
+    
+}
+
+ .container .logbtn{
+    margin-top: 50px;
+    margin-left:30px;
+    width: 85%;
+    outline: none;
+    color:white;
+    height: 50px;
+    border:none;
+    cursor:pointer;
+    border-radius: 4%;
+    transition: 0.4s;
+    background-image:linear-gradient(120deg,#3496db,#8e44ad,#3498db);
+    
+}
+.logbtn:hover{
+    background-position:right;
+    
+}
+    
+    
+    

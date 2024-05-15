@@ -1,0 +1,92 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color:white;
+    background-image: url(manzara.jpeg); 
+    background-position: bottom;  
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.center .avatar img{
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    margin-top:5%;
+}
+.center{
+    width: 600px;
+    background-color: rgba(0,0,0,0.7);
+    height: 600px;
+    text-align: center;
+    border-radius: 10px;
+}
+.content{
+    padding: 30px;
+}
+h1{
+    color:wheat;
+}
+.content h2,p {
+    font-weight: lighter;
+    letter-spacing: 1px;
+    width: 80%;
+    margin: 10px auto;   
+}
+.content h3{
+    margin-top:20px;
+}
+
+.social i {
+
+    color: white;
+    padding: 10px;
+    font-size:40px;
+    text-decoration: none;
+    opacity: 0.8;
+    transition: 0.4s;
+    
+}
+
+.social i:hover{
+    color:rgb(206, 201, 192);
+
+}
+
+@media screen and (max-width:700px){
+
+    .center{
+        width: 300px;
+        height: 600px;
+    }
+    h1{
+        font-size: 22px;
+    }
+    h2{
+        font-size: 16px;
+    }
+    p{
+        width: 90%;
+        font-size: 12px;
+    }
+    h3{
+        font-size: 14px;
+    }
+    .social a i{
+        font-size: 30px;
+    }
+    
+}
+
+
+
+
